@@ -1,21 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #footer
- { 
+ {
     postion: relative;
     width: 100%;
-    clear: both; bottom: 0; height: 3em; margin-top: -3em; background: #f5f5f5;
+    bottom: 0;
+    height: 6em;
+    background: #ffffff;
  }
- 
 
 #footer a {
-    color: rgb(69, 69, 69) !important; }
+    color: rgb(69, 69, 69) !important;
+}
+
 #footer a:hover {
     color: #efefef;
     text-decoration:none !important;
 }
+
 .dash-btns
 {
     text-align:center;
 }
+
 .custom-btn
 {
     display:inline-block;
@@ -24,9 +34,10 @@
     margin:10px;
 }
 
-html, body {height: 100%;}
+html, body { height: 100%; }
+
 #container {
-min-height: 100%;
-overflow:auto;
-padding-bottom: 150px;
+  min-height: 100%;
+  overflow:auto;
+  padding-bottom: 150px;
 }
