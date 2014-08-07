@@ -1155,6 +1155,7 @@ mark,
 .text-primary {
   color: #428bca;
 }
+
 a.text-primary:hover {
   color: #3071a9;
 }

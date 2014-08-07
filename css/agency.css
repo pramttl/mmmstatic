@@ -232,6 +232,24 @@ fieldset[disabled] .btn-xl.active {
     color: white !important;
     -webkit-transition:0.7s;
 }
+.text-red{
+  color: #EB2D2D;
+}
+.text-yellow{
+  color:#FFF50D;
+}
+.text-green{
+ color: #55DA21;
+}
+.text-blue{
+  color: #219FDA;
+}
+.text-violet{
+  color: #8121DA;
+}
+.text-black{
+  color: black;
+}
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
@@ -869,4 +887,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #0099ff;
+}
+
+.container {
+   max-width: 100% !important;
 }
